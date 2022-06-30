@@ -1,7 +1,7 @@
 ---
-title: "Lecture 1"
+title: "Lecture 2"
 description: |
-  Some about Lecture 1
+  Some about Lecture 2
 ---
 
 ```{r setup, include=FALSE}

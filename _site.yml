@@ -1,12 +1,25 @@
 name: "courseweb"
-title: "DSC3252-Scientific Writing and Presentation"
+title: "DSC 3252-Scientific Writing and Presentation"
 description: |
-  DSC3252-Scientific Writing and Presentation
+  DSC 3252-Scientific Writing and Presentation
 output_dir: "_site"
+theme: theme.css
 navbar:
+  logo:
+    image: images/mylogo.png
+    href: https://twitter.com/Pkwijekoon
+  #search: true
   right:
     - text: "Home"
       href: index.html
-    - text: "Lecture 1"
-      href: lecture1.html
+    - text: "Lectures"
+      menu:
+        - text: "Lecture 1"
+          href: lecture1.html  
+        - text: "Lecture 2"
+          href: lecture2.html 
+        - text: "Lecture 3"
+          href: lecture3.html   
+    - icon: fab fa-github
+      href: https://github.com/pkwijekoon/courseweb
 output: distill::distill_article
