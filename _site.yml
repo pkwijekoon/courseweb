@@ -1,0 +1,12 @@
+name: "courseweb"
+title: "DSC3252-Scientific Writing and Presentation"
+description: |
+  DSC3252-Scientific Writing and Presentation
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Lecture 1"
+      href: lecture1.html
+output: distill::distill_article

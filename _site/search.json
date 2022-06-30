@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "DSC - 3252",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-30T12:03:25+05:30"
+    },
+    {
+      "path": "lecture1.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-30T12:03:26+05:30"
+    }
+  ],
+  "collections": []
+}
